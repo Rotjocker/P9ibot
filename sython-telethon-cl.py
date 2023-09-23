@@ -165,7 +165,7 @@ async def start(event):
         [Button.inline('اخر ﹝6﹞ رسائل ⩨', 'f4or3wa1rd'), Button.inline('ارسال رسالة ⛣', 's6e43n6d')],
         [Button.inline('نقر زر شفاف ✧', 'ba4utt2on'), Button.inline('عدد الحسابات ꐕ', "bbuttoon08")],
         [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
-         [Button.inline('༺ 𝐒𝐘𝐓𝐇𝐎𝐍 𝐁𝐎𝐓 ༻', 'button0')]
+         [Button.inline('༺ P9 𝐁𝐎𝐓 ༻', 'button0')]
         ]
         await bot.send_message(chat, '''** ^^  ^^ ⇲**''', buttons=buttons)
 
@@ -198,7 +198,7 @@ async def back(event):
         [Button.inline('اخر ﹝6﹞ رسائل ⩨', 'f4or3wa1rd'), Button.inline('ارسال رسالة ⛣', 's6e43n6d')],
         [Button.inline('نقر زر شفاف ✧', 'ba4utt2on'), Button.inline('عدد الحسابات ꐕ', "bbuttoon08")],
         [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
-         [Button.inline('༺ 𝐒𝐘𝐓𝐇𝐎𝐍 𝐁𝐎𝐓 ༻', 'button0')]
+         [Button.inline('༺ P9 𝐁𝐎𝐓 ༻', 'button0')]
         ]
         await event.edit("""** ^^  ^^ ⇲**""", buttons=buttons)
 
