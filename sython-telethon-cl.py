@@ -359,7 +359,7 @@ async def start(event):
         [Button.inline('رشـــق قناة ⊕', 'aibo'), Button.inline('مغادرة قناة ⊖', 'ajbo')],
         [Button.inline('رشق مشاهدات ⟐', 'akbo')],
         
-         [Button.inline('༺ 𝐒𝐘𝐓𝐇𝐎𝐍 𝐁𝐎𝐓 ༻', 'button0')]
+         [Button.inline('༺ P9 𝐁𝐎𝐓 ༻', 'button0')]
         ]
         await bot.send_message(chat, '''** ^^  ^^ ⇲**''', buttons=buttons)
 
